@@ -15,7 +15,7 @@ Professor: Hugo de Paula
 
 O diagrama descreve o fluxo de uma ordem de compra/venda, que tem início no _broker_ (corretora).
 
-![Diagrama](/notes/diagrama.jpg)
+![Diagrama](/notes/diagram.jpg)
 
 ### Execução
 
