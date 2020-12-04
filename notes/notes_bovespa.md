@@ -1,6 +1,6 @@
 ## 1.   Introdução
 
-Middlewares orientado a mensagens (MOM – *Message Oriented Middlewares*) são sistemas que permitem o envio de mensagens entre entidades de um sistema distribuído. São uma forma de comunicação indireta que provê um serviço de comunicação baseado em filas de mensagens, promovendo o desacoplamento de tempo e espaço. A Seção 6.4 da 5a edição do livro *Distributed Systems*, do Coulouris (2013), descreve o modelo de programação de MOM.
+Middlewares orientados a mensagens (MOM – *Message Oriented Middlewares*) são sistemas que permitem o envio de mensagens entre entidades de um sistema distribuído. São uma forma de comunicação indireta que provê um serviço de comunicação baseado em filas de mensagens, promovendo o desacoplamento de tempo e espaço. A Seção 6.4 da 5a edição do livro *Distributed Systems*, do Coulouris (2013), descreve o modelo de programação de MOM.
 
 O *Java Message Service* – JMS e o *Advanced Message Queueing Protocol* – AMQP são APIs que especificam modelos de *middleware* orientado a mensagens. Esses *middlewares* suportam pelo menos dois modelos básicos de troca de mensagens: ponto a ponto e o modelo *publish/subscribe*. Para que uma aplicação possa utilizar o *middleware*, deve haver um provedor que possa gerenciar as sessões e filas. Existem opções comerciais e livres de sistemas MOM. Dentre as opções FOSS tem-se: ActiveMQ, JBossMQ, HornetQ, Joram, MantaRay, OpenJMS, RabbitMQ.
 
